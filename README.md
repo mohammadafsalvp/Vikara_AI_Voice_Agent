@@ -33,12 +33,12 @@ npm install
 ### 3. Configuration
 Create a `.env.local` file (use `.env.example` as a template):
 ```env
-GOOGLE_SERVICE_ACCOUNT_EMAIL=...
-GOOGLE_PRIVATE_KEY="..."
-VAPI_PUBLIC_KEY=...
-VAPI_AGENT_ID=...
-NEXT_PUBLIC_VAPI_PUBLIC_KEY=...
-NEXT_PUBLIC_VAPI_AGENT_ID=...
+GOOGLE_SERVICE_ACCOUNT_EMAIL=
+GOOGLE_PRIVATE_KEY=
+VAPI_PUBLIC_KEY=
+VAPI_AGENT_ID=
+NEXT_PUBLIC_VAPI_PUBLIC_KEY=
+NEXT_PUBLIC_VAPI_AGENT_ID=
 ```
 
 ### 4. Run Development Server
