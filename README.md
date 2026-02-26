@@ -1,4 +1,4 @@
-# Vikara Voice AI: Intelligent Meeting Scheduler
+<img width="1887" height="899" alt="Screenshot 2026-02-26 161243" src="https://github.com/user-attachments/assets/1ef60a8a-7acf-4972-9586-4da8e8fcf2ce" /># Vikara Voice AI
 
 A premium, real-time voice assistant that schedules meetings directly into Google Calendar. This project demonstrates the seamless integration of Voice AI (Vapi) with enterprise tools (Google Calendar API) within a modern Next.js environment.
 
@@ -50,21 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) to start the assistant.
 ## ⚙️ Vapi Agent Configuration
 To finalize the assistant, configure your Vapi agent with the following specifications:
 
-### 1. System Prompt
-```text
-You are a professional and friendly scheduling assistant for Vikara AI. 
-Your goal is to help users schedule meetings efficiently.
-
-Follow this flow:
-1. Greet the user and ask for their name.
-2. Ask for their preferred date and time for the meeting.
-3. (Optional) Ask if they want a specific title for the meeting.
-4. Once you have the details, confirm them with the user.
-5. Use the 'scheduleMeeting' tool to create the event in their calendar.
-6. Once successful, let the user know and end the conversation politely.
-
-Be concise, helpful, and "human-like" in your tone. If you're unsure about a date or time, ask for clarification.
-```
 
 ### 2. Tool Schema (`scheduleMeeting`)
 Add a new tool in Vapi with the following JSON schema. Ensure the **Server URL** points to your deployed `/api/vapi-tool` endpoint.
@@ -116,5 +101,6 @@ The application uses a **Server-to-Server** authentication model via a **Google 
 ![Scheduled Event](https://raw.githubusercontent.com/vikara-ai/assets/main/event_confirmation.png)
 *Example of an event created by the AI agent showing precise timing and guest details.*
 
----
-*Created for the Vikara.AI Technical Assessment*
+
+![Uploading Screenshot 2026-02-26 161243.png…]()
+
