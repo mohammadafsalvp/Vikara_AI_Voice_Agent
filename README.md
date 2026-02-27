@@ -5,7 +5,7 @@ A premium, real-time voice assistant that schedules meetings directly into Googl
 ---
 
 ## 🚀 Live Experience
-- **Deployed Application**: [Check out the Live Demo](https://vikara-ai-scheduler.vercel.app) *(Replace with your URL)*
+- **Deployed Application**: https://vikara-ai-voice-agent.onrender.com
 - **Core Stack**: GPT-4o voice processing, ElevenLabs high-fidelity audio, and Google Workspace integration.
 
 ## 🎙️ How to Test the Agent
@@ -25,14 +25,13 @@ A premium, real-time voice assistant that schedules meetings directly into Googl
 
 ### 2. Installation
 ```bash
-git clone https://github.com/your-username/vikara-ai-scheduler.git
+git clone https://github.com/mohammedafsalvp/vikara-ai-scheduler.git
 cd vikara-ai-scheduler
 npm install
 ```
 
 ### 3. Configuration
-Create a `.env.local` file (use `.env.example` as a template):
-```env
+Create a `.env.local` file 
 GOOGLE_SERVICE_ACCOUNT_EMAIL=
 GOOGLE_PRIVATE_KEY=
 VAPI_PUBLIC_KEY=
@@ -51,7 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) to start the assistant.
 To finalize the assistant, configure your Vapi agent with the following specifications:
 
 
-### 2. Tool Schema (`scheduleMeeting`)
+### 2. Tool Schema 
 Add a new tool in Vapi with the following JSON schema. Ensure the **Server URL** points to your deployed `/api/vapi-tool` endpoint.
 
 ```json
